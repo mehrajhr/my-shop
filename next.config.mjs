@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",   // static export
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "i.ibb.co.com",
-      },
-    ],
+    unoptimized: true, // disable server optimization so static export works
   },
 };
 

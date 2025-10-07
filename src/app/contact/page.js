@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const ContactPage = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 max-w-3xl">
@@ -76,4 +76,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ContactPage;

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const AboutPage = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 max-w-4xl text-center">
@@ -34,4 +34,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AboutPage;
